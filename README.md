@@ -7,7 +7,7 @@ Note: license has been omitted from this repo.  Add the license in the JXB_LICEN
 
 To build and run, execute `./gradlew run` on mac/linux, or `gradlew.bat run` on windows.
 
-To the project and collect needed dependencies without running, execute `./gradlew build` or `gradlew.bat build` (if on windows).  Then execute the `main()` in App.java.  
+To the build project and collect needed dependencies without running, execute `./gradlew build` or `gradlew.bat build` (if on windows).  Then execute the `main()` in App.java.  
 
 
 ### Issue
