@@ -2,7 +2,17 @@
 
 Note: license has been omitted from this repo.  Add the license in the JXB_LICENSE constant in App.java.
 
-Given this project, dragging Swing elements, as well as files from the Desktop such as .svg result in the following error as soon as the draggable item enters (drag-enter) the panel.
+
+### Build and Run
+
+To build and run, execute `./gradlew run` on mac/linux, or `gradlew.bat run` on windows.
+
+To the project and collect needed dependencies without running, execute `./gradlew build` or `gradlew.bat build` (if on windows).  Then execute the `main()` in App.java.  
+
+
+### Issue
+
+Given this project, dragging Swing elements, as well as files from the Desktop such as .svg result in the following error as soon as the draggable item enters (drag-enter) the panel.  This occurred on both AdoptOpenJDK 11.0.2, 11.0.7, Azul JDK 11.0.7, and Corretto v11.0.6.  This stack was created on macOs.
 
 ```stacktrace
 

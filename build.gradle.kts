@@ -8,7 +8,8 @@
 
 plugins {
     // Apply the java plugin to add support for Java
-    `java-library`
+    java
+    application
 }
 
 
@@ -39,10 +40,10 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.6.2")
 }
 
-//application {
-//    // Define the main class for the application.
-//    mainClassName = "com.inductiveautomation.ignition.App"
-//}
+application {
+    // Define the main class for the application.
+    mainClassName = "com.inductiveautomation.ignition.App"
+}
 
 val test by tasks.getting(Test::class) {
     // Use junit platform for unit tests
